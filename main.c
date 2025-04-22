@@ -13,7 +13,6 @@ int main(void)
     /* Disable WDT. */
     WDTCTL = WDTPW | WDTHOLD;
 
-
     return 0;
 }
 
