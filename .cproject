@@ -103,19 +103,6 @@
                             <option id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.NEAR_DATA.309926680" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.NEAR_DATA" value="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.NEAR_DATA.globals" valueType="enumerated"/>
                         </tool>
                     </fileInfo>
-                    <folderInfo id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1522629470.Debug" name="Debug" resourcePath="Debug">
-                        <toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.DebugToolchain.155258123" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.DebugToolchain" unusedChildren="">
-                            <option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.650424117.820185865" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.650424117"/>
-                            <option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.458805583.2031761595" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.458805583"/>
-                            <targetPlatform id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.targetPlatformDebug" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.targetPlatformDebug"/>
-                            <tool id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.compilerDebug.1829546503" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.compilerDebug.1138901245">
-                                <option id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.SILICON_VERSION.1897847056" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.SILICON_VERSION.mspx" valueType="enumerated"/>
-                                <option id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.CODE_MODEL.1935265525" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.CODE_MODEL" value="com.ti.ccstudio.buildDefinitions.MSP430_21.6.compilerID.CODE_MODEL.large" valueType="enumerated"/>
-                            </tool>
-                            <tool id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.linkerDebug.1255557998" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.exe.linkerDebug.851531900"/>
-                            <tool id="com.ti.ccstudio.buildDefinitions.MSP430_21.6.hex.1830358924" name="MSP430 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.MSP430_21.6.hex.263840609"/>
-                        </toolChain>
-                    </folderInfo>
                 </configuration>
             </storageModule>
             <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
