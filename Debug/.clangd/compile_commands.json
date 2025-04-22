@@ -1,7 +1,0 @@
-[
-   {
-      "directory" : "/home/developer/Documents/MSP430x5xx_MSP430x6xx_SensorLibrary/Debug",
-      "command"   : "clang++ -I\"/opt/ti/ccs2011/ccs/ccs_base/msp430/include\" -I\"/home/developer/Documents/MSP430x5xx_MSP430x6xx_SensorLibrary\" -I\"/opt/ti/ccs2011/msp430ware_3_80_14_01/iqmathlib/include\" -I\"/opt/ti/ccs2011/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430F5529__ -xc",
-      "file"      : "/home/developer/Documents/MSP430x5xx_MSP430x6xx_SensorLibrary/main.c"
-   }
-]
