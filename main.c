@@ -1,4 +1,4 @@
-#include "msp430f5529.h"
+#include "msp430.h"
 
 #include <stdint.h>
 #include <stdio.h>
