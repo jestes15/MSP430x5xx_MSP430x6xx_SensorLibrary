@@ -8,7 +8,7 @@
 	<createSlaveProjects value=""/>
 	<connection value="common/targetdb/connections/TIMSP430-USB.xml"/>
 	<activeTargetConfiguration value="targetConfigs/MSP430F5529.ccxml"/>
-	<templateProperties value="id=QmathLib_empty_ex1_MPY32_5xx_6xx.projectspec.tmp102lib_qmath"/>
+	<templateProperties value="id=QmathLib_empty_ex1_MPY32_5xx_6xx.projectspec.MSP430x5xx_MSP430x6xx_SensorLibrary_qmath"/>
 	<origin value="C:\TI\msp430ware_3_80_14_01\iqmathlib\examples\CCS\MPY32\5xx_6xx\QmathLib_empty_ex1_MPY32_5xx_6xx.projectspec"/>
 	<filesToOpen value=""/>
 </projectOptions>

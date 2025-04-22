@@ -213,6 +213,6 @@
         </cconfiguration>
     </storageModule>
     <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-        <project id="tmp102lib_qmath.com.ti.ccstudio.buildDefinitions.MSP430.ProjectType.253943192" name="MSP430" projectType="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType"/>
+        <project id="MSP430x5xx_MSP430x6xx_SensorLibrary_qmath.com.ti.ccstudio.buildDefinitions.MSP430.ProjectType.253943192" name="MSP430" projectType="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType"/>
     </storageModule>
 </cproject>
