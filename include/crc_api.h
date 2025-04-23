@@ -1,9 +1,17 @@
 #include "msp430.h"
 
-void init_crc16(uint16_t seed);
-void calc_crc16_ba_nondma(uint8_t* data);
-void calc_crc16rb_ba_nondma(uint8_t* data);
-void calc_crc16_ba_dma(uint8_t* data);
-void calc_crc16rb_ba_dma(uint8_t* data);
-void calc_crc16_b(uint8_t dma);
-void calc_crc16rb_b(uint8_t dma);
+void crc16_ba_nondma(uint16_t seed, uint8_t* data);
+void crc16_ba_rb_nondma(uint16_t seed, uint8_t* data);
+void crc16_ba_dma(uint16_t seed, uint8_t* data);
+void crc16_ba_rb_dma(uint16_t seed, uint8_t* data);
+
+void crc16_b_dma(uint16_t seed, uint8_t data);
+void crc16_b_rb_dma(uint16_t seed, uint8_t data);
+
+void crc16_wa_nondma(uint16_t seed, uint8_t* data);
+void crc16_wa_rb_nondma(uint16_t seed, uint8_t* data);
+void crc16_wa_dma(uint16_t seed, uint8_t* data);
+void crc16_wa_rb_dma(uint16_t seed, uint8_t* data);
+
+void crc16_w_dma(uint16_t seed, uint8_t data);
+void crc16_w_rb_dma(uint16_t seed, uint8_t data);
