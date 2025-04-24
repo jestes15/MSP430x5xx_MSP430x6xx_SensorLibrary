@@ -34,8 +34,13 @@ int main(void)
     // Clear pending interrupts
     UCB1IFG &= ~(UCNACKIFG | UCALIFG | UCSTPIFG | UCSTTIFG | UCTXIFG | UCRXIFG);
 
+    // Setup P4.1 and P4.2 as Peripheral Pins
+    P4SEL |= (BIT1 | BIT2);
+
+    // Enable interrupts
     __enable_interrupt();
 
+    // Take USCI peripheral out of reset
     UCB1CTL1 &= ~UCSWRST;
 
     calculate_temp_12b(0x453, 0.0625);
