@@ -3,7 +3,9 @@
 
 #include "msp430.h"
 
-void i2c_init();
+#include <stdint.h>
+
+void i2c_init(uint8_t i2c_set);
 void i2c_write_byte();
 void i2c_write_bytes();
 void i2c_read_byte();
